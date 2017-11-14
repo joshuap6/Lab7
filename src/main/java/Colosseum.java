@@ -77,7 +77,6 @@ public class Colosseum {
         final int maxAttack = 49;
         Pokemon tempPokemon = new Pokemon();
         System.out.print("Please name your Pokemon: ");
-        Scanner myScan = new Scanner(System.in);
         String name = myScan.next();
         System.out.print("How many hit points will it have? (1-50): ");
         int hitpoints = myScan.nextInt();
